@@ -4,7 +4,7 @@ const fileUpload = require("express-fileupload");
 const cloudinary = require("cloudinary").v2;
 
 const Offer = require("../models/Offer");
-const convertToBase64 = require("./utils/convertToBase64");
+const convertToBase64 = require("../utils/convertToBase64");
 
 const isAuthenticated = require("../middleware/isAuthenticated");
 
